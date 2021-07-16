@@ -9,11 +9,10 @@ html, body {
 .wrapper{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     min-height: 100%;
 }
-.main{
-    padding: 250px 0 0 0;
-}
+
 .container {
     padding: 10px;
     width: 1280px;
@@ -76,8 +75,7 @@ html, body {
     height: 40px;
     border-radius: 50%;
 }
-ol {
-    
+.todo__list { 
     width: 500px;
     min-height: 500px;
     border:5px solid rgb(194, 168, 82);
